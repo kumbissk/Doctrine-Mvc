@@ -31,14 +31,14 @@ class ProprietaireController extends Controller
     }
 
     public function formulaire(){
-      return $this->view->load("Proprietaire/ajout");
+      return $this->view->load("proprietaire/ajout");
     }
 
     public function list(){
         
         $listes = $this->proprietairedao->finAll();
         
-        return $this->view->load("Proprietaire/list",$listes);
+        return $this->view->load("proprietaire/list",$listes);
         }
    /**
     * http://localhost/DoctrineTs-Immo/edit/12
@@ -46,13 +46,13 @@ class ProprietaireController extends Controller
    public function edit($id) {
       $trouver = $this->proprietairedao->editBd($id);
       
-      return $this->view->load("Proprietaire/modification",$trouver);
+      return $this->view->load("proprietaire/modif",$trouver);
    }
 
    public function details($id) {
       $trouver = $this->proprietairedao->editBd($id);
       
-      return $this->view->load("Proprietaire/details",$trouver);
+      return $this->view->load("proprietaire/details",$trouver);
    }
 
    public function modifier($id) {

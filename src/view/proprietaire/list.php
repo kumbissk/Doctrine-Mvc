@@ -39,7 +39,7 @@
                 <div class="col-md-12">
                     <div class="mt-5 mb-3 clearfix">
                         <h2 class="pull-left">liste des Proprietaires</h2>
-                        <a href="http://localhost/DoctrineTs-Immo/Proprietaires/formulaire" class="btn btn-success pull-right"><i class="fa fa-plus"></i> Ajouter nouveau proprietaire</a>
+                        <a href="http://localhost/Projet-Mini/proprietaire/formulaire" class="btn btn-success pull-right"><i class="fa fa-plus"></i> Ajouter nouveau proprietaire</a>
                     </div>
                     
 
@@ -64,9 +64,9 @@
                                         echo "<td>" . $proprietaire->getAdresse(). "</td>";
                                         echo "<td>" . $proprietaire->getContact(). "</td>";
                                         echo "<td>";
-                                        echo '<a href="http://localhost/DoctrineTs-Immo/proprietaires/details/'.$proprietaire->getId_proprietaire().'" class="mr-3" title="List Proprietaire" data-toggle="tooltip"><span class="fa fa-eye"></span></a>';
-                                        echo '<a href="http://localhost/DoctrineTs-Immo/proprietaires/edit/'.$proprietaire->getId_proprietaire().'" class="mr-3" title="Modifier proprietaire" data-toggle="tooltip"><span class="fa fa-pencil"></span></a>';
-                                        echo '<a href="http://localhost/DoctrineTs-Immo/proprietaires/delete/'.$proprietaire->getId_proprietaire().'" title="Supprimer proprietaire" data-toggle="tooltip"><span class="fa fa-trash"></span></a>';
+                                        echo '<a href="http://localhost/Projet-Mini/proprietaire/details/'.$proprietaire->getId_proprietaire().'" class="mr-3" title="List Proprietaire" data-toggle="tooltip"><span class="fa fa-eye"></span></a>';
+                                        echo '<a href="http://localhost/Projet-Mini/proprietaire/edit/'.$proprietaire->getId_proprietaire().'" class="mr-3" title="Modifier proprietaire" data-toggle="tooltip"><span class="fa fa-pencil"></span></a>';
+                                        echo '<a href="http://localhost/Projet-Mini/proprietaire/delete/'.$proprietaire->getId_proprietaire().'" title="Supprimer proprietaire" data-toggle="tooltip"><span class="fa fa-trash"></span></a>';
                                         echo "</td>";
                                     echo "</tr>";
                                 }

@@ -30,7 +30,7 @@
 </head>
 <body>
 <div class="col-6 m-5">
-        <form method="POST" action="http://localhost/DoctrineTs-Immo/Proprietaire/ajout" >
+        <form method="POST" action="http://localhost/Projet-Mini/proprietaire/ajout">
             <div class="mb-3">
               <label for="exampleInputEmail1" class="form-label">Nom</label>
               <input type="text" class="form-control" id="nom" name="nom" aria-describedby="emailHelp">

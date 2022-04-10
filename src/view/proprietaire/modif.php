@@ -28,7 +28,7 @@
 </head>
 <body>
 <div class="col-6 m-5">
-        <form method="POST" action="http://localhost/DoctrineTs-Immo/proprietaires/modif/<?=$data->getId_proprietaire()?>" >
+        <form method="POST" action="http://localhost/Projet-Mini/proprietaire/modif/<?=$data->getId_proprietaire()?>" >
             <div class="mb-3">
             <input type="hidden" name="id_proprietaire" value="<?=$data->getId_proprietaire() ?>"id="">
               <label for="exampleInputEmail1" class="form-label">Nom</label>
